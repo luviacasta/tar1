@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>Validacion de formulario</title>
+<link rel="stylesheet" type="text/css" href="sol/sol.css"/>
+</head>
+<body background ="luna/arbol.jpg">
+<script>
+function comprobarClave(){
+clave1 = document.f1.clave1.value
+clave2 = document.f1.clave2.value
+if (clave1 == "Luvia" && clave2 == "Gutierrez"){
+alert("Los Datos Coinciden...\n Bienvenido a nuestro sitio web");
+var href = "pagina.html";
+window.location=href;
+}
+else{
+alert("Las dos claves son distintas...\nIntentalo nuevamente.");
+var href = "index.html";
+window.location=href;
+};
+}
+</script>
+<center><h2>INGRESA TU USUARIO Y CONTRASEÑA</h2></center>
+
+<form action="" name="f1">
+	<br>
+<p><h1>ingresa tu usuario y contraseña para que puedas acceder</p>
+<br>
+
+USUARIO: <input type="password" name="clave1" size="20" >
+<br>
+CONTRASEÑA: <input type="password" name="clave2" size="20">
+</h1>
+<br><center>
+<input type="button" value="ingresar" onClick="comprobarClave()">
+</center>
+</form>
+</body>
+</html>

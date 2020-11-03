@@ -1,0 +1,163 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+section
+ {
+  width: 100%;
+  min-height:200px;
+  font-family: 'Playball', sans-serif;
+
+}
+
+#div1{
+float:left;
+background:#B3C5AB;
+width: 50%;
+  min-height:400px;
+   font-family: fantasy;
+}
+#div2{
+float:left;
+background:#A1C6EA;
+width: 50%;
+  min-height:240px;
+   font-family: fantasy;
+}
+#div3{
+float:left;
+background:#E6D690;
+width: 50%;
+  min-height:400px;
+   font-family: fantasy;
+}
+#div3{
+float:left;
+background:#E6D690;
+width: 50%;
+  min-height:240px;
+   font-family: fantasy;
+}
+
+.caja{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 16px:;
+}
+
+}
+h1
+ {
+ background-color: #bedcb6
+
+}
+
+h4
+{
+  font-family: arial;
+
+}
+h2
+ {
+ background-color: #c0c0c0
+
+}
+h2
+ {
+ background-color: #bedcb6
+
+}
+form
+ {
+background-color: hsla( 0.50turn , 100% , 50% , 0.5 );
+
+}
+
+#columna1 { background: #f9a799; width: 25%; height: 100%; }
+
+#columna2 { background: #C4FAF8; width: 25%; height: 100%; }
+
+
+#highlight {
+   background-image: linear-gradient( #f9eac3,#f9eac3);
+   
+    font-size:24px;
+    font-weight: bold;
+    font-color:black;
+    font-style: normal;
+    float: left;
+    padding: 10px 50px 10px 50px;
+    font-family: sans-serif;
+
+
+}
+
+#p1 {
+    padding: 60px 20px 10px 20px;
+   
+    font-size:18px;
+   background-image: linear-gradient(#e08e79,#e08e79);
+    color:black;
+    font-weight: bold;
+    font-style: italic;
+    font-family:  "arial", serif;
+  }
+ 
+/* RESPONSIVE WORK DEVICE */
+
+.fili {
+  width: 100%;
+
+}
+@media (min-width:100px)
+{
+.col1, .col2, .col3, .col4, .col5, .col6,.col7, .col8, .col9,.col10, .col11, .col12 {
+  float: left;
+}
+.col1{
+  width: 50%;
+}
+.col2{
+  width: 30%;
+}
+.col3{
+  width: 40%;
+}
+.col4{
+  width: 50%;
+}
+.col5{
+  width: 60%;
+}
+.col6{
+  width: 60%;
+}
+.col7{
+  width: 70%;
+}
+.col8{
+  width: 80%;
+}
+.col9{
+  width: 90%;
+}
+.col10{
+  width: 100%;
+}
+.col11{
+  width: 100%;
+}
+.col12{
+  width: 100%;
+}
+   
+
+
